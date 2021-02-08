@@ -1,0 +1,413 @@
+html{
+     scroll-behavior: smooth;
+   }
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
+
+/*********** HEADER ************/
+
+
+header{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+nav h1 a{
+	color: #DF5757;
+	font-size:30px;
+	font-weight: bolder;
+}
+
+nav h1 a:hover {
+	color: #B23A3A;
+	text-decoration: none;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {color: #DF5757}
+
+
+/*********** BODY ************/
+
+h1 {
+	font-size:35px;
+	color: #DF5757; /*pink*/
+	margin: 0px;
+	border-bottom: 0px;
+	font-weight: bold;
+}
+
+h2 {
+    font-size:20px;
+	color: #E88E01; /*yellow*/
+	font-weight: bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:0px;
+}
+
+h3 {
+    font-size:20px;
+	color: #5B5B5B; /*gray*/
+	text-align:center;
+	font-weight: bold;
+	padding:15px;
+}
+
+h4 {
+	margin: 0px;
+	padding-top:10px;
+	font-weight: bold;
+	color: #DF5757; /*pink*/
+	text-align: center;
+}
+
+h5 {
+	color: #494040; /*dark gray*/
+	font-size: 1rem;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+em {
+	color: #5B5B5B;
+}
+
+.cover {
+  position: relative;
+  text-align: center;
+  color: #DF5757;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.identity {
+    font-size: 50px;
+	font-weight: bolder;
+}
+
+a {
+    color: #E88E01;
+}
+
+#catagories a:hover {
+	color: #E88E01;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#ux {padding-top:50px;height:500px;color: #000; background-color: #F5F5F5;}
+#ui {padding-top:50px;height:500px;color: #000; background-color: #D7D7D7;}
+#ill {padding-top:50px;height:500px;color: #000; background-color: #F3F3F3;}
+#cs {padding-top:50px;height:500px;color: #000; background-color: #DDDDDD;}
+#fab {padding-top:50px;height:500px;color: #000; background-color: #E5E5E5;}
+
+.card {
+  background-color:#ffffff;
+  width:100%;
+  transition: 0.3s;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.overlay{
+    background:rgba(0,0,0,.5);
+    /*cursor:pointer;*/
+    display:none;
+    height:100%;
+    width:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    left:0;
+    z-index:10000;
+}
+.overlay .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.overlay > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    width: 99%;
+    height: 98%;
+    /*
+    min-height: 10%;
+    max-height: 80%;
+    height: auto;
+    */
+    position: relative;
+    vertical-align: middle;
+    text-align: left;
+    border-radius: 8px;
+    padding: 15px 5%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.xbutton {
+    position: fixed; /*need to fix, it's not staying*/
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    line-height: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.xbutton:hover {
+    background-color: #ccc;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    /*font-size: 14px;*/
+}
+
+.documentation {
+    position: relative; 
+}
+
+/*
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.h1-responsive {
+	font-size: 30px;
+	margin: 0px;
+	border-bottom: 0px;
+	color: DarkSalmon;
+	font-weight: bolder;
+}
+
+.mb-5 {
+	color: DimGray;
+}
+*/
+
+
+/*********** SCROLL BAR ************/
+
+/*
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+*/
+
+
+/*********** BLOG ************/
+
+.bard {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+
+.story {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(255,255,255); 
+  background-color: rgba(255,255,255, 0.7);
+  backdrop-filter: blur(5px);
+  overflow: auto;
+}
+
+.bard:hover .story {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding:25px;
+  /*
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  */
+}
+
+.desc {
+	font-weight: lighter;
+	font-style: italic;
+	color: gray;
+	text-align: center;
+}
+
+
+/*********** CONTACT ************/
+
+form {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: DarkSalmon;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: Salmon;
+}
+
+/*
+button {
+  background-color: DarkSalmon;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  animation: pulse
+}
+
+button:hover {
+  background-color: Salmon;
+}
+
+button:active {
+	transform: scale3d(1.1, 1.1, 1.1);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+*/
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/*********** ANIMATION ************/
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+/*********** FOOTER ************/
+footer {
+	text-align: right;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	font-weight: bolder;
+}
+
+footer a {
+	color: #DF5757;
+	padding: 2px;
+}
+
+footer a:hover {
+	color: #B23A3A;
+	text-decoration: none;
+}
