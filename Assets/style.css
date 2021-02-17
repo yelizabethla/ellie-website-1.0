@@ -186,6 +186,12 @@ a {
     background-color: #ccc;
 }
 
+.vcenter {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
 ul {
     display: block;
     list-style-type: disc;
