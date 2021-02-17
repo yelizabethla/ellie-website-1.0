@@ -3,8 +3,6 @@ function submitForm() {
 	document.getElementById('sub').disabled = 'disabled';
 }
 
-
-
 /*TYPING ANIMATION*/
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -67,11 +65,11 @@ var TxtType = function(el, toRotate, period) {
 function show(n) {
 	var det;
 	if (n==1) {
-		det = document.getElementById("hope");}
+		det = document.getElementById("lg");}
 	if (n==2) {
-		det = document.getElementById("topaz");}
+		det = document.getElementById("su");}
 	if (n==3) {
-		det = document.getElementById("pamf");}
+		det = document.getElementById("pps");}
 	if (n==4) {
 		det = document.getElementById("muse");}
 	if (n==5) {
@@ -96,11 +94,11 @@ function show(n) {
 function hide(n) {
 	var det;
 	if (n==1) {
-		det = document.getElementById("hope");}
+		det = document.getElementById("lg");}
 	if (n==2) {
-		det = document.getElementById("topaz");}
+		det = document.getElementById("su");}
 	if (n==3) {
-		det = document.getElementById("pamf");}
+		det = document.getElementById("pps");}
 	if (n==4) {
 		det = document.getElementById("muse");}
 	if (n==5) {
