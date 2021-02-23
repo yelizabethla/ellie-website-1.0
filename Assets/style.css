@@ -15,6 +15,7 @@ body {
 
 /*********** HEADER ************/
 
+p {cursor: default;}
 
 header{
 	text-align: center;
@@ -28,8 +29,9 @@ nav h1 a{
 	font-weight: bolder;
 }
 
+
 nav h1 a:hover {
-	color: #B23A3A;
+	color: #DF5757; /*B23A3A maroon*/
 	text-decoration: none;
 }
 
@@ -39,6 +41,11 @@ nav h1 a:hover {
 
 
 /*********** BODY ************/
+
+/*
+.row {
+	padding-top: 10px;
+} */
 
 h1 {
 	font-size:35px;
@@ -84,6 +91,10 @@ em {
 	color: #5B5B5B;
 }
 
+b {
+	color: #494040;
+}
+
 .cover {
   position: relative;
   text-align: center;
@@ -104,6 +115,12 @@ em {
 
 a {
     color: #E88E01;
+}
+
+a:hover {
+	color: #E88E01; /*
+	text-decoration: none;
+	font-weight: bolder; */
 }
 
 #catagories a:hover {
@@ -164,7 +181,7 @@ a {
     overflow-y: auto;
 }
 
-.xbutton {
+.xbutton{
     position: fixed; /*need to fix, it's not staying*/
     background-color: #fff;
     border: 3px solid #999;
@@ -201,6 +218,10 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 20px;
     /*font-size: 14px;*/
+}
+
+li {
+	padding-bottom: 10px;
 }
 
 .documentation {
