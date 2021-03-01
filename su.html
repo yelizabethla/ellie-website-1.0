@@ -4,7 +4,7 @@
 	<title>SleepU</title>
 		<meta charset="UTF-8">
 	<!-- styles -->
-	<link rel="icon" href="Assets/Logo/le.ico">
+	<link rel="icon" href="Assets/Logo/bold.ico">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab"
 	rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -49,100 +49,146 @@
 	              		<p>  <a href="http://smashlab.io" target="_blank"> Smart Sensing for Humans Lab</a>, Feb 2019 -  May 2020</p>
 	              	</div>
 	              	<div class="col-md-3 col-sm-12">
-	              		<h5> Collaborators </h5>
-	              		<p> Julian Ramos <em> PhD Candidate</em>, Carolyn Zhong <em> Research Assitant </em> </p>
+	              		<h5> Team </h5>
+	              		<p> Julian Ramos <em> PhD Candidate</em>, Carolyn Zhong <em> Designer </em> </p>
 	              	</div>
 	              	<div class="col-md-6 col-sm-12">
 	              		<h5> Primary Role </h5>
-	              		<p> Research Participant Recruiter: <em> screened and onboarded participants </em> <br> User Researcher: <em> conducted research studies and synthesis activities </em></p>
+	              		<p> Research Participant Recruiter: <em> screened and onboarded participants </em> <br> User Researcher: <em> conducted research studies and synthesis activities </em>
+                      <br> Video Editor: <em> created a project overview video for a design conference </em></p>
 	              	</div>
 	              </div>
 
               <h2> Challenge </h2>
-              <h5>What information and features do people need to understand and improve their daily habits, sleep habits, and sleep quality? </h5>
-              <p>There are currently a lot of different tools on the market for people to track and understand their sleep - to an extent. From a Fitbit on your wrist tracking your hours of sleep vs. restlessness to the Health app on your iPhone tracking your daily activity and sleep, these apps can tell you your sleep quantity and quality isn’t great but nothing on how to improve it. There are a lot of different factors that affect sleep, like caffeine intake, exercise, screen usage, and more, and by considering these alongside sleep quantity, we set out to build a tool that can help people understand and optimize their sleep quality.</p>
+              <h5>How might we utilize data to help people improve their daily habits, sleep habits, and sleep quality? </h5>
+              <p>Although sleep is essential for a person's health and wellbeing, research conducted by the NSF has shown that tens of millions of people are sleep deprived. Over the years, the number of sleep-tracking products have grown, but none of them help people understand how to improve their sleep. There is a need for a tool that goes beyond the generic tip of "minimize caffine intake" and "reduce blue light before bed", and help each individual understand what specific habits benefit their sleep. </p>
 
               <h2> The Project </h2>
+              <p><b>SleepU is a sleep-intervention app</b> that uses Fitbit data and user-inputed trackings to provide personal sleep recommendations. These help users adjust their daily behaviors and sleep environment to optimize their sleep quality. </p>
+              
+              <p>It accomplishes this with four features:</p>
               <div class="row">
-              <div class="col-lg-6 col-sm-12"> 
-              <p><b>SleepU is a sleep-intervention app</b> that uses Fitbit data and user-inputed habit trackings to provide personal sleep recommendations. These help users adjust their daily behaviors and sleep environment to optimize their sleep quality. </p>
-     </div></div>
-              <!--
-              <p>It has four core pillars:</p>
-              <div class="row">
-              	<div class="col-lg-6 col-md-6 col-sm-12">
-              		<h5>Collaborative </h5>
-              		<p>An inclusive way for local residents to collectively create and generate thoughts and opinions about the public art piece </p>
+              	<div class="col-lg-3 col-md-6 col-sm-12">
+              		<h5>Habit Tracker</h5>
+              		<p>A daily record of major factors of sleep (i.e. meal times, exercise, stress levels) to determine which combination of habits result in the best sleep for the individual</p>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-12"> 
-            		<h5>Transparent </h5>
-            		<p>An augmented way for local residents to see through a lens where they can contribute to the art without modifying the original piece </p>
+              <div class="col-lg-3 col-md-6 col-sm-12"> 
+            		<h5>Sleep Decision Making Tool </h5>
+            		<p>A machine learning model that predicts how an evening activity will affect an individuals sleep, and allows them to make informed decisions</p>
               </div>
-            	<div class="col-lg-6 col-md-6 col-sm-12">
-            		<h5>Dynamic </h5>
-            		<p>A novel way to see the art, to inspire new ways to interpret the art and maintain engagement with residents</p>
+            	<div class="col-lg-3 col-md-6 col-sm-12">
+            		<h5>Interruptibility </h5>
+            		<p>An algorithm that determines how receptive one is to receive a notification based on phone usage (i.e. checking another notficiation, extensive use of social app)</p>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-12"> 
-              	<h5>Physical </h5>
-              	<p>A salient way to attract people to engage with the medium by providing a tangible device at the location of public art </p>
+              <div class="col-lg-3 col-md-6 col-sm-12"> 
+              	<h5>Contextual Reminders </h5>
+              	<p>A notification that gives a recommendation based on the time and location of the individual (i.e. if at a coffee shop past 3 pm, will remind them to buy decaf)</p>
               </div>
-            	</div>
-
-            	</div>
-
-            	<div class="col-lg-6 col-sm-12 vcenter">
-            		<img src="Assets/Portfolio/lgsolution.png" alt="" style="width:100%">
-            	</div>
             	</div>
 
               
 
 					<h2> Approach </h2>
             <div class="row">
-            	<div class="col-lg-3 col-md-6 col-sm-12">
-            		<h5>Contextual Inquiry</h5>
-            		<p>Observed if/ how people currently engage with public art and learn what their experiences are
+            	<div class="col-lg-6 col-md-6 col-sm-12">
+            		<h5>Beta Testing</h5>
+            		<p>28 college students participated in a semester long study. In the first 2 weeks, they only used a Fitbit to record their sleep data. Afterwards, they were assigned to either visit a health specialist who provided them with a sleep assessment and consulation, or used SleepU. After a month of the first condition, participants were assigned to the other conditions for another month.
 	            		<ul>
-	            			<li>Talked to two types of people: those who stopped by the art, and those who didn't</li>
-	            			<li>Gathered data in both the weekday and the weekend</li>
+	            			<li>Everyday, participants filled out a "Sleep Diary" where they logged habits that contribute to sleep</li>
+	            			<li>Before and after each phase (4 times total), participants filled out a questionnaire that acccessed their sleep practices and other habits</li>
 	            		</ul>	
 	            	</p>
             		
 
             	</div>
-            	<div class="col-lg-3 col-md-6 col-sm-12">
+
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <h5>Semi-structured Interview</h5>
+                <p>Interviewed half the participants from prior study and asked about their sleep during the semester.
+                  <ul>
+                    <li>Compared their sleep to other semesters, identified external factors beyond the study (i.e. class workload)</li>
+                    <li>Discussed what factors they think affect their sleep, and any changes they made in their habit </li>
+                    <li>Compared the two conditions: sleep appointment and using SleepU</li>
+                    <li>Recounted their experience with SleepU; which recommendations they were following, and which weren't useful/ relevant</li>
+                    </ul> 
+                  </p>
+              </div>
+
+            	<div class="col-lg-12 col-md-12 col-sm-12">
                 <h5>Affinity Diagram</h5>
-                <p>Transcribed 8 interviews and grouped similar quotes to find common themes. We found:
+                <p>Transcribed 13 interviews and grouped similar quotes to find common themes. We found:
 	                <ul>
-	                	<li>People don't plan structured activity around art, most engagement was from individuals waiting for busses</li>
-		            		<li>Engaging in public art can be passive; it’s enough that people notice that it’s in the background</li>
-		            			
+                    <li>Overall, using SleepU was as effective, or better than visiting a health specialist</li>
+	                	<li>Participants found the recommendations and habit tracking to be helpful; they became more conscious of factors that affect their sleep (i.e. many established a bedtime routine) </li>
+                    <li>Many expressed that recommendations got repetivitive after a while. This was because after the model determined which habits work best for the individual, it would recommend the same ones to ensure that they were being followed. There is a need for people to mark which habits they reguarly practice without the help of the app, so that SleepU can recommend new ones. </li>
+                    <li>Participants also shared that they wanted to learn more about sleep in general, and why specific recommendations improve sleep</li>
 		            		</ul>	
 		            	</p>
+                  <img src="Assets/Portfolio/suad.png" alt="" style="width:100%">
             	</div>
-            	<div class="col-lg-6 col-sm-12 vcenter">
-            		<img src="Assets/Portfolio/lgad.png" alt="" style="width:100%">
-            	</div>
-            	<div class="col-lg-3 col-md-6 col-sm-12">
-                <h5>Worst Possible Idea</h5>
-                <p>Ideated a variety of possible solutions without any contraints to be as creative as possible</p>
-            		<img src="Assets/Portfolio/lgwi1.png" alt="" style="width:100%">
-            		<img src="Assets/Portfolio/lgwi2.png" alt="" style="width:100%">
-            	</div>
-            	<div class="col-lg-3 col-md-6 col-sm-12">
+            	
+            	<div class="col-lg-4 col-md-12 col-sm-12">
+                <h5>Storyboard</h5>
+                <p>Brainstormed ways we can improve SleepU based on user needs identified and specific feedback we received from participants during the interview. Ideas centered around two types of interactions:
+                  <ul>
+                    <li><b>App to person</b> (Storyboards 2, 3, 4): Make recommendations more specific and actionable (i.e. Contextual reminders through the use phone data, time, and location) </li>
+                    <li><b>Person to app</b> (Storyboards 1, 5, 6): Visualize/ explain how actions affect sleep, help individuals make good decisions for their sleep (i.e. Decision making tool, habit tracker)</li>
+                  </ul>
+                </p>
+              </div>
+            	<div class="col-lg-8 col-md-12 col-sm-12">
               	<h5>Speed Dating</h5>
-            		<p>Learned if users relate to scenarios and if there is an actual need for the solution</p>
+            		<p> Interviewed 8 new individuals; learned if people could relate to scenarios and if there was an actual need for the solution. Key findings:
+                  <ul>
+                    <li>Storyboard 2: People know that it's important to have a consistent sleep schedule, but aren't always able to go to sleep when they want because they are finishing up work. In this case, a reminder from SleepU wouldn't be helpful</li>
+                    <li>Storyboards 3 and 4 were liked better, since it's regarding something the individual has control over and preventing bad choices</li>
+                    <li>Storyboard 5: Logging habits takes effort, and inputing data would depend on how motivated they are to improve their sleep</li>
+                    <li>Storyboard 6: Depending on the importance of the morning plan, usage of decision tool would differ (i.e. if high stakes, would still stay in for mental preperation)</li>
+                  </ul>
+                </p>
             	</div>
-            	<div class="col-lg-3 col-md-6 col-sm-12">
-                <h5>Think Aloud Protocol</h5>
-                <p>Determined the suitability of AR for creating a new dimension for people to interact with public art</p>
-            	</div>
-            	<div class="col-lg-3 col-md-6 col-sm-12">
-            		<h5>Experience Prototyping</h5>
-            		<p>Tested our protoype to determine if people want to engage with public art and share their contribution</p>
-            	</div>
+              <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                  <img src="Assets/Portfolio/sus1.png" alt="" style="width:100%">
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                  <img src="Assets/Portfolio/sus2.png" alt="" style="width:100%">
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                  <img src="Assets/Portfolio/sus3.png" alt="" style="width:100%">
+                </div> 
+                <div class="col-lg-4 col-sm-12">
+                  <img src="Assets/Portfolio/sus4.png" alt="" style="width:100%">
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                  <img src="Assets/Portfolio/sus5.png" alt="" style="width:100%">
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                  <img src="Assets/Portfolio/sus6.png" alt="" style="width:100%">
+                </div> 
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <h5>Interface Design</h5>
+                <p>A simple interface design for the home page, which will display the recommendations for the day.</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <img src="Assets/Portfolio/sulf1.png" alt="" style="width:100%">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <img src="Assets/Portfolio/sulf2.png" alt="" style="width:100%">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <img src="Assets/Portfolio/sulf3.png" alt="" style="width:100%">
+                </div> 
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <img src="Assets/Portfolio/sulf4.png" alt="" style="width:100%">
+                </div>
+              </div>
             </div>
-                      -->
+            <h2> Design Conference </h2>
+            <p>In August 2019, we submitted our project to the <a href="https://centerhxd.com/collaborations/projects/health-x-design-building-health-into-everyday-life/" target="_blank">Health x Design: Building Health into Everyday Life Design Challenge</a>. For the submission, I created a 3 minute video describing our project, from the importance of our work and the functionality of SleepU.</p>
+                      
 
 	          </div>
 
